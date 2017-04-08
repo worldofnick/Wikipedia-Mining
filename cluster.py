@@ -7,7 +7,6 @@
 # Using mean shift clustering to estimate the number of clusters in the data set and plots it
 
 import matplotlib
-# matplotlib.use('Agg')
 matplotlib.use('Agg')
 from sklearn import preprocessing
 from sklearn.decomposition import TruncatedSVD
