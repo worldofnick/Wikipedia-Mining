@@ -176,7 +176,8 @@ def main():
   print 'Getting cluster stats'
   get_cluster_stats(X, km, vectorizer, 12)
 
-  # print 'Reducing Data'
+  # Scale down to 2 dimensions
+  print 'Reducing Data'
   reduced_data = reduce_data(2, X)
 
   # Visualize reduced data
